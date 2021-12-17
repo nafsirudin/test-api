@@ -30,6 +30,7 @@ app.get('/news', (req, res) => {
                     title,
                     url
                 })
+                
             })
             res.json(articles)
         }).catch((err) => console.log(err))
